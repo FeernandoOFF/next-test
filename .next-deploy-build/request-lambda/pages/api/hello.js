@@ -40,7 +40,7 @@ module.exports = require("next/dist/server/base-http/node.js");
 
 /***/ }),
 
-/***/ 4153:
+/***/ 2779:
 /***/ ((module) => {
 
 module.exports = require("next/dist/server/request-meta.js");
@@ -138,13 +138,6 @@ module.exports = require("http");
 
 /***/ }),
 
-/***/ 2037:
-/***/ ((module) => {
-
-module.exports = require("os");
-
-/***/ }),
-
 /***/ 1017:
 /***/ ((module) => {
 
@@ -166,7 +159,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 2779:
+/***/ 5364:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -174,7 +167,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ next_serverless_loaderabsolute404Path_absoluteAppPath_private_next_pages_2F_app_js_absoluteDocumentPath_next_2Fdist_2Fpages_2F_document_absoluteErrorPath_next_2Fdist_2Fpages_2F_error_absolutePagePath_private_next_pages_2Fapi_2Fhello_js_assetPrefix_basePath_buildId_VPyNTvhGWT7BBzswtIBlT_canonicalBase_distDir_private_dot_next_generateEtags_true_i18n_loadedEnvFiles_W10_3D_page_2Fapi_2Fhello_poweredByHeader_true_previewProps_7B_22previewModeId_22_3A_222f82258da2ee9e4c18271c51ea7996ea_22_2C_22previewModeSigningKey_22_3A_2266adc76bcb759c1f5390f4ebdcd67ec4e1e9976ba80f4e09f10627175e402bcd_22_2C_22previewModeEncryptionKey_22_3A_227294d070aa9f1ca0d46f8c4a93bba03726db0735a50f625804255f01c9210aab_22_7D_runtimeConfig_)
+  "default": () => (/* binding */ next_serverless_loaderabsolute404Path_absoluteAppPath_private_next_pages_2F_app_js_absoluteDocumentPath_next_2Fdist_2Fpages_2F_document_absoluteErrorPath_next_2Fdist_2Fpages_2F_error_absolutePagePath_private_next_pages_2Fapi_2Fhello_js_assetPrefix_basePath_buildId_EFJ4mMGK2lREMgW49lCXq_canonicalBase_distDir_private_dot_next_generateEtags_true_i18n_loadedEnvFiles_W10_3D_page_2Fapi_2Fhello_poweredByHeader_true_previewProps_7B_22previewModeId_22_3A_229bdc696068a3256c943d608640358674_22_2C_22previewModeSigningKey_22_3A_221ee5424ea655550d3068bc9d6a129ce1c340a6952d55721eba995829123a69e1_22_2C_22previewModeEncryptionKey_22_3A_223b6d61668cabef3e43e8f1caa70fb6b4d00a454c5d3a6c53c2f04f259b18b389_22_7D_runtimeConfig_)
 });
 
 // EXTERNAL MODULE: ./node_modules/.pnpm/next@12.2.0_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/node-polyfill-fetch.js
@@ -183,10 +176,10 @@ var node_polyfill_fetch = __webpack_require__(9164);
 const routes_manifest_namespaceObject = {"Dg":[]};
 // EXTERNAL MODULE: ./node_modules/.pnpm/next@12.2.0_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack/loaders/next-serverless-loader/api-handler.js
 var api_handler = __webpack_require__(3378);
-;// CONCATENATED MODULE: ./node_modules/.pnpm/next@12.2.0_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack/loaders/next-serverless-loader/index.js?absolute404Path=&absoluteAppPath=private-next-pages%2F_app.js&absoluteDocumentPath=next%2Fdist%2Fpages%2F_document&absoluteErrorPath=next%2Fdist%2Fpages%2F_error&absolutePagePath=private-next-pages%2Fapi%2Fhello.js&assetPrefix=&basePath=&buildId=VPyNTvhGWT7BBzswtIBlT&canonicalBase=&distDir=private-dot-next&generateEtags=true&i18n=&loadedEnvFiles=W10%3D&page=%2Fapi%2Fhello&poweredByHeader=true&previewProps=%7B%22previewModeId%22%3A%222f82258da2ee9e4c18271c51ea7996ea%22%2C%22previewModeSigningKey%22%3A%2266adc76bcb759c1f5390f4ebdcd67ec4e1e9976ba80f4e09f10627175e402bcd%22%2C%22previewModeEncryptionKey%22%3A%227294d070aa9f1ca0d46f8c4a93bba03726db0735a50f625804255f01c9210aab%22%7D&runtimeConfig=!
+;// CONCATENATED MODULE: ./node_modules/.pnpm/next@12.2.0_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack/loaders/next-serverless-loader/index.js?absolute404Path=&absoluteAppPath=private-next-pages%2F_app.js&absoluteDocumentPath=next%2Fdist%2Fpages%2F_document&absoluteErrorPath=next%2Fdist%2Fpages%2F_error&absolutePagePath=private-next-pages%2Fapi%2Fhello.js&assetPrefix=&basePath=&buildId=EFJ4mMGK2lREMgW49lCXq&canonicalBase=&distDir=private-dot-next&generateEtags=true&i18n=&loadedEnvFiles=W10%3D&page=%2Fapi%2Fhello&poweredByHeader=true&previewProps=%7B%22previewModeId%22%3A%229bdc696068a3256c943d608640358674%22%2C%22previewModeSigningKey%22%3A%221ee5424ea655550d3068bc9d6a129ce1c340a6952d55721eba995829123a69e1%22%2C%22previewModeEncryptionKey%22%3A%223b6d61668cabef3e43e8f1caa70fb6b4d00a454c5d3a6c53c2f04f259b18b389%22%7D&runtimeConfig=!
 
         
-      const { processEnv } = __webpack_require__(858)
+      const { processEnv } = __webpack_require__(4680)
       processEnv([])
     
         
@@ -209,9 +202,9 @@ var api_handler = __webpack_require__(3378);
           page: "/api/hello",
           basePath: "",
           pageIsDynamic: false,
-          encodedPreviewProps: {previewModeId:"2f82258da2ee9e4c18271c51ea7996ea",previewModeSigningKey:"66adc76bcb759c1f5390f4ebdcd67ec4e1e9976ba80f4e09f10627175e402bcd",previewModeEncryptionKey:"7294d070aa9f1ca0d46f8c4a93bba03726db0735a50f625804255f01c9210aab"}
+          encodedPreviewProps: {previewModeId:"9bdc696068a3256c943d608640358674",previewModeSigningKey:"1ee5424ea655550d3068bc9d6a129ce1c340a6952d55721eba995829123a69e1",previewModeEncryptionKey:"3b6d61668cabef3e43e8f1caa70fb6b4d00a454c5d3a6c53c2f04f259b18b389"}
         })
-        /* harmony default export */ const next_serverless_loaderabsolute404Path_absoluteAppPath_private_next_pages_2F_app_js_absoluteDocumentPath_next_2Fdist_2Fpages_2F_document_absoluteErrorPath_next_2Fdist_2Fpages_2F_error_absolutePagePath_private_next_pages_2Fapi_2Fhello_js_assetPrefix_basePath_buildId_VPyNTvhGWT7BBzswtIBlT_canonicalBase_distDir_private_dot_next_generateEtags_true_i18n_loadedEnvFiles_W10_3D_page_2Fapi_2Fhello_poweredByHeader_true_previewProps_7B_22previewModeId_22_3A_222f82258da2ee9e4c18271c51ea7996ea_22_2C_22previewModeSigningKey_22_3A_2266adc76bcb759c1f5390f4ebdcd67ec4e1e9976ba80f4e09f10627175e402bcd_22_2C_22previewModeEncryptionKey_22_3A_227294d070aa9f1ca0d46f8c4a93bba03726db0735a50f625804255f01c9210aab_22_7D_runtimeConfig_ = (apiHandler);
+        /* harmony default export */ const next_serverless_loaderabsolute404Path_absoluteAppPath_private_next_pages_2F_app_js_absoluteDocumentPath_next_2Fdist_2Fpages_2F_document_absoluteErrorPath_next_2Fdist_2Fpages_2F_error_absolutePagePath_private_next_pages_2Fapi_2Fhello_js_assetPrefix_basePath_buildId_EFJ4mMGK2lREMgW49lCXq_canonicalBase_distDir_private_dot_next_generateEtags_true_i18n_loadedEnvFiles_W10_3D_page_2Fapi_2Fhello_poweredByHeader_true_previewProps_7B_22previewModeId_22_3A_229bdc696068a3256c943d608640358674_22_2C_22previewModeSigningKey_22_3A_221ee5424ea655550d3068bc9d6a129ce1c340a6952d55721eba995829123a69e1_22_2C_22previewModeEncryptionKey_22_3A_223b6d61668cabef3e43e8f1caa70fb6b4d00a454c5d3a6c53c2f04f259b18b389_22_7D_runtimeConfig_ = (apiHandler);
       
 
 /***/ }),
@@ -240,7 +233,7 @@ function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [72], () => (__webpack_exec__(2779)));
+var __webpack_exports__ = __webpack_require__.X(0, [873], () => (__webpack_exec__(5364)));
 module.exports = __webpack_exports__;
 
 })();

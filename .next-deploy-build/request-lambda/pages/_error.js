@@ -5,7 +5,7 @@ exports.id = 820;
 exports.ids = [820];
 exports.modules = {
 
-/***/ 8663:
+/***/ 4257:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -36,7 +36,7 @@ __webpack_require__.r(__webpack_exports__);
       
 
       
-      const { processEnv } = __webpack_require__(9004)
+      const { processEnv } = __webpack_require__(3610)
       processEnv([])
     
       
@@ -95,11 +95,11 @@ __webpack_require__.r(__webpack_exports__);
         rewrites: rewrites,
         i18n: undefined,
         page: "/_error",
-        buildId: "VPyNTvhGWT7BBzswtIBlT",
-        escapedBuildId: "VPyNTvhGWT7BBzswtIBlT",
+        buildId: "EFJ4mMGK2lREMgW49lCXq",
+        escapedBuildId: "EFJ4mMGK2lREMgW49lCXq",
         basePath: "",
         pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"2f82258da2ee9e4c18271c51ea7996ea",previewModeSigningKey:"66adc76bcb759c1f5390f4ebdcd67ec4e1e9976ba80f4e09f10627175e402bcd",previewModeEncryptionKey:"7294d070aa9f1ca0d46f8c4a93bba03726db0735a50f625804255f01c9210aab"}
+        encodedPreviewProps: {previewModeId:"9bdc696068a3256c943d608640358674",previewModeSigningKey:"1ee5424ea655550d3068bc9d6a129ce1c340a6952d55721eba995829123a69e1",previewModeEncryptionKey:"3b6d61668cabef3e43e8f1caa70fb6b4d00a454c5d3a6c53c2f04f259b18b389"}
       })
       
     
@@ -183,7 +183,7 @@ module.exports = require("next/dist/server/render.js");
 
 /***/ }),
 
-/***/ 4153:
+/***/ 2779:
 /***/ ((module) => {
 
 module.exports = require("next/dist/server/request-meta.js");
@@ -344,13 +344,6 @@ module.exports = require("fs");
 
 /***/ }),
 
-/***/ 2037:
-/***/ ((module) => {
-
-module.exports = require("os");
-
-/***/ }),
-
 /***/ 1017:
 /***/ ((module) => {
 
@@ -379,7 +372,7 @@ module.exports = require("url");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [796,656], () => (__webpack_exec__(8663)));
+var __webpack_exports__ = __webpack_require__.X(0, [164,656], () => (__webpack_exec__(4257)));
 module.exports = __webpack_exports__;
 
 })();
